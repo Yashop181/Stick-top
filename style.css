@@ -1,0 +1,50 @@
+.vertical-line {
+    display: inline-block;
+    width: 1px;
+    height: 200px;
+    border-left: 5px dotted #3561b5;
+    position: relative;
+    margin: 0 370px; /* Adjust the margin as needed */
+  }
+  
+  .vertical-line::after {
+    content: "";
+    position: absolute;
+   
+    
+  }
+  .sirt
+  {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+     margin-top: 1px;
+     margin-left: 294px;
+     margin-right: 285px;
+     ;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-container {
+    position: sticky;
+    top: 0;
+  
+    z-index: 1;
+}
+
+.sirt {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #FF0056;
+}
+
+.sirt li {
+    padding: 30px;
+}
